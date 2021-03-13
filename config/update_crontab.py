@@ -29,8 +29,7 @@ def create_cron_jobs(local_cron):
 
 
 def cron_command(index):
-    return " /bin/bash -c \"source ~/.bashrc; export TELEGRAM_API_TOKEN;" \
-           + PYTHON_PATH + ' ' + NOTIFICATION_SCRIPT_PATH + ' ' + str(index) + "\""
+    return " /bin/bash -c \"" + PYTHON_PATH + ' ' + NOTIFICATION_SCRIPT_PATH + ' ' + str(index) + "\""
 
 
 if __name__ == '__main__':

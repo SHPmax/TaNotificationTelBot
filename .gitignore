@@ -3,3 +3,4 @@ app.log
 users_data/*
 venv/
 __pycache__/
+config/telegram_bot_api.key
