@@ -5,7 +5,7 @@ from init import *
 
 try:
     with open(TENOR_API_KEY_PATH, 'r') as file:
-        tenor_api_token = file.readline()
+        tenor_api_token = file.read()
 except Exception as e:
     logging.error(e)
 
