@@ -1,6 +1,6 @@
 .idea/
 app.log
-users_data/*
+users_data/chat_id.txt
 venv/
 __pycache__/
 config/telegram_bot_api.key
