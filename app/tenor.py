@@ -4,7 +4,7 @@ from init import *
 
 
 try:
-    with open('config/tenor_gif_api.key', 'r') as file:
+    with open(TENOR_API_KEY_PATH, 'r') as file:
         tenor_api_token = file.readline()
 except Exception as e:
     logging.error(e)
