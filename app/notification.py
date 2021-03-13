@@ -19,7 +19,7 @@ def run_notification(msg_id):
     msg = notifications[msg_id]
     try:
         chat_id_storage_file = open(CHAT_ID_PATH, 'r')
-        chat_id = int(chat_id_storage_file.read())
+        chat_id = int(chat_id_storage_file.read().splitlines()[0])
         chat_id_storage_file.close()
     except Exception as e:
         logging.error(e)

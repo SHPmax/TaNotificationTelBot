@@ -13,7 +13,7 @@ logging.basicConfig(filename='app.log', format='%(asctime)s %(levelname)-8s %(me
                     datefmt='%Y-%m-%d %H:%M:%S')
 try:
     with open(TELEGRAM_TOKEN_PATH, 'r') as file:
-        telegram_api_token = file.read()
+        telegram_api_token = file.read().splitlines()[0]
 except Exception as e:
     logging.error(e)
     telegram_api_token = None
