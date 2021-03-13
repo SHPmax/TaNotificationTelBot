@@ -1,0 +1,5 @@
+.idea/
+app.log
+users_data/*
+venv/
+__pycache__/

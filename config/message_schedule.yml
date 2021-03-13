@@ -1,0 +1,7 @@
+notifications:
+  - time: '45 9 * * 1'
+    text: Отметьтесь на ЛЕКЦИИ
+    url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=5299
+  - time: '55 10 * * 1'
+    text: Отметьтесь на ЛЕКЦИИ2
+    url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=5299
