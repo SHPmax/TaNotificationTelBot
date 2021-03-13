@@ -8,6 +8,7 @@ def start_message(message):
         chat_id_storage_file.write(str(message.chat.id))
         chat_id_storage_file.close()
         bot.send_message(message.chat.id, 'OK')
+        logging.info('update chat id')
     except Exception as e:
         logging.error(e)
         bot.send_message(message.chat.id, "Все пошло по пизде")

@@ -1,6 +1,7 @@
 from crontab import CronTab
 import yaml
 from app.init import *
+import os
 
 CRON_COMMENT = 'ta_notification'
 PYTHON_PATH = ROOT_PATH + '/venv/bin/python'
@@ -33,7 +34,8 @@ def cron_command(index):
 
 
 if __name__ == '__main__':
-    cron = CronTab(user='shpmax')
+    user_name = os.environ['USER']
+    cron = CronTab(user=user_name)
     remove_old_cron_jobs(cron)
     create_cron_jobs(cron)
     cron.write()

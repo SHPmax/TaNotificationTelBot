@@ -1,6 +1,7 @@
 from init import *
 import yaml
 import sys
+import tenor
 
 
 def parse_yml():
@@ -23,6 +24,9 @@ def run_notification(msg_id):
     except Exception as e:
         logging.error(e)
         return False
+    gif_url = tenor.get_random_gif_url()
+    if gif_url is not None:
+        bot.send_video(chat_id, gif_url)
     markup = telebot.types.InlineKeyboardMarkup()
     url_btn = telebot.types.InlineKeyboardButton(text='Тыкай', url=msg['url'])
     markup.add(url_btn)

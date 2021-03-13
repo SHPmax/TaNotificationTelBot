@@ -4,3 +4,4 @@ users_data/*
 venv/
 __pycache__/
 config/telegram_bot_api.key
+config/tenor_gif_api.key
