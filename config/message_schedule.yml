@@ -1,26 +1,26 @@
 notifications:
   - time: '45 9 * * 1'
-    text: Отметьтесь на ЛЕКЦИИ @all
+    text: Отметьтесь на ЛЕКЦИИ 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=5299
   - time: '55 10 * * 1'
-    text: СКОРО КОНЕЦ ЛЕКЦИИ Отметьтесь на EDU @all
+    text: СКОРО КОНЕЦ ЛЕКЦИИ Отметьтесь на EDU 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=5299
   - time: '45 9 * * 5'
-    text: Отметьтесь на ЛЕКЦИИ @all
+    text: Отметьтесь на ЛЕКЦИИ 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=5299
   - time: '55 9 * * 5'
-    text: СКОРО КОНЕЦ ЛЕКЦИИ Отметьтесь на EDU @all
+    text: СКОРО КОНЕЦ ЛЕКЦИИ Отметьтесь на EDU 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=5299
   - time: '15 8 * * 3'
-    text: Отметьтесь на ПРАКТИКЕ @all
+    text: Отметьтесь на ПРАКТИКЕ 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=1421
   - time: '25 9 * * 3'
-    text: СКОРО КОНЕЦ ПРАКТИКИ Отметьтесь на EDU @all
+    text: СКОРО КОНЕЦ ПРАКТИКИ Отметьтесь на EDU 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=1421
   - time: '30 14 * * 4'
-    text: Отметьтесь на ПРАКТИКЕ @all
+    text: Отметьтесь на ПРАКТИКЕ 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=1421
   - time: '40 15 * * 4'
-    text: СКОРО КОНЕЦ ПРАКТИКИ Отметьтесь на EDU @all
+    text: СКОРО КОНЕЦ ПРАКТИКИ Отметьтесь на EDU 
     url: https://edufpmi.bsu.by/course/view.php?id=96&sectionid=1421
 
